@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Project Basic Pertama</string>
+    <string name="title_activity_kirim_data">KirimDataActivity</string>
+</resources>

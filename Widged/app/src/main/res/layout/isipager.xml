@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/warna">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="5dp"
+        android:background="@color/item"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/Buah"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/durian" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="5dp"
+        android:background="@color/item"></LinearLayout>
+
+    <TextView
+        android:id="@+id/buahDuren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Duren"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="5dp"
+        android:background="@color/item"></LinearLayout>
+
+</LinearLayout>

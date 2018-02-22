@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.macbook.widged.MessageActivity"
+    android:background="@color/warna">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/item"></LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/warna"
+        android:text="Toast" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/item"></LinearLayout>
+
+    <Button
+        android:background="@color/warna"
+        android:id="@+id/btnAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/item"></LinearLayout>
+
+    <Button
+        android:background="@color/warna"
+        android:id="@+id/btnCstm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Costum alert" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/item"></LinearLayout>
+</LinearLayout>
